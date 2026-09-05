@@ -14,20 +14,25 @@ Every morning at 10:00 AM (Singapore time):
 
 ## Architecture
 Google Health API (OAuth2)
-│
-▼
+
+ ▼
+
 Fetch steps (dailyRollUp) + sleep (list + stages)
-│
+
 ▼
+
 Summarize → efficiency %, stage %, awakenings, bedtime/wake time
-│
+
 ▼
+
 DeepSeek AI → analytical morning message
-│
+
 ▼
+
 Telegram Bot API → delivered to phone
-│
+
 ▼
+
 Scheduled daily via GitHub Actions cron
 
 
