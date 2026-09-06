@@ -2,7 +2,7 @@ name: Morning Health Bot
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '25 2 * * *'
   workflow_dispatch:
 
 jobs:
